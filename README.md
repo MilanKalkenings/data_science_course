@@ -1,10 +1,10 @@
 # data science roadmap
-roadmap on learning data science basics from scratch partitioned into 15 chapters:
+roadmap on learning data science basics from scratch partitioned into 14 chapters:
 
-1-4: analysing small scale data sets with python on your own
-5-6: machine learning for tabular data
-7-9: analysing bigger data sets, usually in group settings
-10-15: machine learning for non-tabular data
+1-3: analysing small scale data sets with python on your own
+4-5: machine learning for tabular data
+6-8: analysing bigger data sets, usually in group settings
+9-14: machine learning for non-tabular data
 
 ## 1: python basics
 learn the basics of python programming
@@ -17,18 +17,13 @@ learn the basics of python programming
 - classes (constructor, self, getters, setters, scopes, polymorphism)
 - import
 
-## 2. data handling basics
-read and merge data with pandas and other means
-
-- read text files (codecs)
-- read csv files
-- series (creation, renaming)
-- data frames (creation, shape, rename columns, add columns, drop columns)
-- merge data with pandas
-
-## 3. data cleaning and feature engineering
+## 2. data cleaning and feature engineering
 clean data and engineer features for analysis with pandas 
 
+- pandas series (creation, renaming)
+- data frames (creation, shape, rename columns, add columns, drop columns)
+- merge data frames and series
+- merge data frames
 - indexing (return a column, return a row)
 - slicing (return multiple columns, return multiple rows)
 - conditionals (return rows that fulfill certain conditions)
@@ -40,7 +35,7 @@ clean data and engineer features for analysis with pandas
 - uniques
 - groupby
 
-## 4. exploratory data analysis with pandas and matplotlib
+## 3. exploratory data analysis with pandas and matplotlib
 means of statistics to gain insights into your data and to test your assumptions
 
 - summary statistics (mean, median, std, var)
@@ -55,7 +50,7 @@ means of statistics to gain insights into your data and to test your assumptions
 - scatterplot
 - lineplot
 
-## 5. machine learning basics with sklearn
+## 4. machine learning basics with sklearn
 machine learning to mine patterns in your data and to solve a variety of problems
 
 - train / val / test split
@@ -65,7 +60,7 @@ machine learning to mine patterns in your data and to solve a variety of problem
 - kmeans
 - hyperparameter optimization
 
-## 6. machine learning ensembles
+## 5. machine learning ensembles
 machine learning ensembles to achieve better results
 
 - error decorrelation
@@ -73,7 +68,7 @@ machine learning ensembles to achieve better results
 - bagging (random forest)
 - boosting (xgboost)
 
-## 7. git
+## 6. git
 share your code with others and benefit from version control
 
 - create github repository
@@ -81,13 +76,13 @@ share your code with others and benefit from version control
 - push
 - pull
 
-## 8. sql data bases
+## 7. sql data bases
 sql data bases in python to handle data sets
 
-## 9. mongodb
+## 8. mongodb
 non-sql data bases in python to taim "big data"
 
-## 10. deep learning basics with torch
+## 9. deep learning basics with torch
 torch for deep learning projects
 
 - torch tensors
@@ -98,7 +93,7 @@ torch for deep learning projects
 - activation functions
 - multilayer perceptron (regression, classification)
 
-## 11. computer vision basics
+## 10. computer vision basics
 deal with image data 
 
 - load image data
@@ -106,14 +101,14 @@ deal with image data
 - convolutional layers
 - alexnet (image classification)
 
-## 12. sequential data
+## 11. sequential data
 deal with sequential data 
 
 - handling sequential data
 - lstm (sequence classification)
 - bert (sequence classification)
 
-## 13. advanced training techniques for deep learning
+## 12. advanced training techniques for deep learning
 improve the training process of neural networks
 
 - gradient flow theory 
@@ -122,7 +117,7 @@ improve the training process of neural networks
 - advanced optimizers (rmsprop, adam, adadelta)
 - loss weights
 
-## 14. regularization
+## 13. regularization
 focus on the signal instead of the noise in your data
 
 - overfitting and underfitting
@@ -130,7 +125,7 @@ focus on the signal instead of the noise in your data
 - dropout
 - data augmentation (smote, image augmentation, text augmentation)
 
-## 15. meta learning
+## 14. meta learning
 improve neural networks with meta learning
 
 - fine tuning pretrained models
