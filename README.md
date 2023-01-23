@@ -12,12 +12,12 @@ learn the basics of python programming
 - int, float, char, str
 - bool, comparisons, conditionals (if, elif, else)
 - list, dict
-- loops (for, while)
-- functions (function heads, return, scopes)
-- classes (__init__(), self, getters, setters, polymorphism)
+- loops (for)
+- functions (function heads, return)
+- classes (constructor, self, getters, setters, scopes, polymorphism)
 - import
 
-## 2. read and store data
+## 2. data handling basics
 read and merge data with pandas and other means
 
 - read text files (codecs)
