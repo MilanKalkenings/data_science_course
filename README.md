@@ -20,20 +20,22 @@ learn the basics of python programming
 ## 2. data cleaning and feature engineering
 clean data and engineer features for analysis with pandas 
 
-- pandas series (creation, renaming)
-- data frames (creation, shape, rename columns, add columns, drop columns)
-- merge data frames and series
-- merge data frames
-- indexing (return a column, return a row)
-- slicing (return multiple columns, return multiple rows)
-- conditionals (return rows that fulfill certain conditions)
+- data frames (creation, shape, head)
+- dropping (drop rows, drop columns)
+- indices (change column ids, change row ids)
+- indexing and slicing (columns and rows)
+- masking (return rows that fulfill certain conditions)
 - changing values in columns
 - sorting (sort_values())
 - counting (value_counts())
-- dropping (drop a certain row, drop a certain col)
 - null values (isna(), dropna(), fillna())
 - uniques
 - groupby
+- appending new columns (pd.concat())
+- creating new columns from existing ones 
+
+tbd 
+- merge data frames
 
 ## 3. exploratory data analysis with pandas and matplotlib
 means of statistics to gain insights into your data and to test your assumptions
