@@ -17,7 +17,7 @@ learn the basics of python programming
 - classes (constructor, self, getters, setters, scopes, polymorphism)
 - import
 
-## 2. data cleaning and feature engineering
+## 2. data handling basics (pandas)
 clean data and engineer features for analysis with pandas 
 
 - data frames (creation, shape, head)
@@ -25,21 +25,17 @@ clean data and engineer features for analysis with pandas
 - indices (change column ids, change row ids)
 - indexing and slicing (columns and rows)
 - masking (return rows that fulfill certain conditions)
-- changing values in columns
-- sorting (sort_values())
-- counting (value_counts())
 - null values (isna(), dropna(), fillna())
-- uniques
-- groupby
 - appending new columns (pd.concat())
 - creating new columns from existing ones 
-
-tbd 
 - merge data frames
 
-## 3. exploratory data analysis with pandas and matplotlib
+## 3. exploratory data analysis (pandas, matplotlib, scipy)
 means of statistics to gain insights into your data and to test your assumptions
 
+- sorting (sort_values())
+- uniques (uniques, value_counts())
+- groupby
 - summary statistics (mean, median, std, var)
 - normal distribution
 - pearson correlation
@@ -52,7 +48,7 @@ means of statistics to gain insights into your data and to test your assumptions
 - scatterplot
 - lineplot
 
-## 4. machine learning basics with sklearn
+## 4. machine learning basics (sklearn)
 machine learning to mine patterns in your data and to solve a variety of problems
 
 - train / val / test split
@@ -62,7 +58,7 @@ machine learning to mine patterns in your data and to solve a variety of problem
 - kmeans
 - hyperparameter optimization
 
-## 5. machine learning ensembles
+## 5. machine learning ensembles (sklearn, xgboost)
 machine learning ensembles to achieve better results
 
 - error decorrelation
@@ -70,9 +66,10 @@ machine learning ensembles to achieve better results
 - bagging (random forest)
 - boosting (xgboost)
 
-## 6. git
+## 6. IDEs and git
 share your code with others and benefit from version control
 
+- pycharm and project structure
 - create github repository
 - commit
 - push
