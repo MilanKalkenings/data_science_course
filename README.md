@@ -25,17 +25,17 @@ clean data and engineer features for analysis with pandas
 - indices (change column ids, change row ids)
 - indexing and slicing (columns and rows)
 - masking (return rows that fulfill certain conditions)
-- null values (isna(), dropna(), fillna())
-- appending new columns (pd.concat())
-- creating new columns from existing ones 
-- merge data frames
+- null values (isna, dropna, fillna)
+- creating new columns form existing ones (apply)
+- merging data frames (inner, outer, left, right)
+- sorting (1 priority, 2 priorities)
+- uniques (unique, nunique, value_counts)
+- aggregations (max, idmax)
+- groupby
 
 ## 3. exploratory data analysis (pandas, matplotlib, scipy)
 means of statistics to gain insights into your data and to test your assumptions
 
-- sorting (sort_values())
-- uniques (uniques, value_counts())
-- groupby
 - summary statistics (mean, median, std, var)
 - normal distribution
 - pearson correlation
@@ -58,13 +58,15 @@ machine learning to mine patterns in your data and to solve a variety of problem
 - kmeans
 - hyperparameter optimization
 
-## 5. machine learning ensembles (sklearn, xgboost)
-machine learning ensembles to achieve better results
+## 5. machine learning best practices
+achieve better results
 
+- feature engineering (linearity, monotony, collinearity)
 - error decorrelation
 - averaging
 - bagging (random forest)
 - boosting (xgboost)
+- feature selection
 
 ## 6. IDEs and git
 share your code with others and benefit from version control
@@ -84,7 +86,7 @@ non-sql data bases in python to taim "big data"
 ## 9. deep learning basics with torch
 torch for deep learning projects
 
-- torch tensors
+- tensors
 - loss functions
 - stochastic gradient descent
 - backpropagation
