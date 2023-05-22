@@ -16,6 +16,7 @@ learn the basics of python programming
 - functions (function heads, return)
 - classes (constructor, self, getters, setters, scopes, polymorphism)
 - import
+- exceptions
 
 ## 2. data handling basics (pandas)
 clean data and engineer features for analysis with pandas 
@@ -56,19 +57,17 @@ machine learning to mine patterns in your data and to solve a variety of problem
 - logistic regression
 - decision tree
 - kmeans
-- hyperparameter optimization
+- hyperparameter optimization (coarse to fine grid search)
 
 ## 5. machine learning best practices
 achieve better results
 
 - feature engineering (linearity, monotony, collinearity)
 - error decorrelation
-- averaging
-- bagging (random forest)
-- boosting (xgboost)
+- ensembling (random forest, xgboost)
 - feature selection
 
-## 6. IDEs and git
+## 6. pycharm and git
 share your code with others and benefit from version control
 
 - pycharm and project structure
@@ -94,26 +93,26 @@ torch for deep learning projects
 - activation functions
 - multilayer perceptron (regression, classification)
 
-## 10. computer vision basics
-deal with image data 
-
-- load image data
-- display image data 
-- convolutional layers
-- alexnet (image classification)
-
-## 11. sequential data
+## 10. sequential data
 deal with sequential data 
 
-- handling sequential data
-- lstm (sequence classification)
+- load, represent and augment sequential data
+- gru (sequence classification)
 - bert (sequence classification)
+
+## 11. computer vision basics
+deal with image data 
+
+- load, represent and augment image data
+- convolutional layers
+- vgg (image classification)
 
 ## 12. advanced training techniques for deep learning
 improve the training process of neural networks
 
 - gradient flow theory 
 - gradient clipping
+- batch normalization
 - skip connections (resnet)
 - advanced optimizers (rmsprop, adam, adadelta)
 - loss weights
@@ -122,12 +121,11 @@ improve the training process of neural networks
 focus on the signal instead of the noise in your data
 
 - overfitting and underfitting
-- parameter norm penalties
-- dropout
-- data augmentation (smote, image augmentation, text augmentation)
+- adding noise to the model (dropout)
+- limiting the range of weights (parameter norm penalties, early stopping, parameter sharing)
 
-## 14. meta learning
-improve neural networks with meta learning
+## 14. transfer learning
+improve neural networks with transfer learning
 
 - fine tuning pretrained models
 - multi-task learning
