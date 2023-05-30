@@ -38,8 +38,7 @@ clean data and engineer features for analysis with pandas
 means of statistics to gain insights into your data and to test your assumptions
 
 - summary statistics (mean, median, std, var)
-- normal distribution
-- pearson correlation
+- probability distributions
 - hypothesis testing
 - boxplot
 - histplot
@@ -62,7 +61,7 @@ machine learning to mine patterns in your data and to solve a variety of problem
 ## 5. machine learning best practices
 achieve better results
 
-- feature engineering (linearity, monotony, collinearity)
+- feature engineering (linearity, monotony, correlation, collinearity)
 - error decorrelation
 - ensembling (random forest, xgboost)
 - feature selection
